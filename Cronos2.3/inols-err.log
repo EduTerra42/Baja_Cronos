@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+Started logging.
+2021/06/30 14:07:43 logging to c:\Users\edumt\Documents\GitHub\Baja_Cronos\Cronos2.3\inols.log
+2021/06/30 14:07:43 Initial board configuration: {"Arduino Uno" arduino:avr:uno}
+2021/06/30 14:07:43 Language server build path: C:\Users\edumt\AppData\Local\Temp\arduino-language-server454419731
+2021/06/30 14:07:43 Language server build sketch root: C:\Users\edumt\AppData\Local\Temp\arduino-language-server454419731\sketch
+2021/06/30 14:07:43 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/30 14:07:43 IDE --> initialize 0 [93m locked[0m
+2021/06/30 14:07:43 IDE --> initialize 0 [93m unlocked[0m
+2021/06/30 14:07:43 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/30 14:07:43 INIT--- initializing workbench
+2021/06/30 14:07:43 INIT--- [93m locked[0m
+2021/06/30 14:07:43     --> initialize(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3)
+2021/06/30 14:07:43 running:  c:\Users\edumt\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe compile --fqbn arduino:avr:uno --only-compilation-database --clean --source-override C:\Users\edumt\AppData\Local\Temp\031181142 --build-path C:\Users\edumt\AppData\Local\Temp\arduino-language-server454419731 --format json C:\Users\edumt\Documents\GitHub\Baja_Cronos\Cronos2.3
+2021/06/30 14:07:43 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/30 14:07:45 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\edumt\\AppData\\Local\\Temp\\arduino-language-server454419731",
+    "used_libraries": [
+      {
+        "name": "DigitLedDisplay",
+        "author": "Ozhan Duran \u003cozhantr@hotmail.com\u003e",
+        "maintainer": "Ozhan Duran \u003cozhantr@hotmail.com\u003e",
+        "sentence": "MAX7219/MAX7221 Digital Tube 7-Segment LED Display Library",
+        "paragraph": "Easy-to-use library for 8 bit 7-segment digital LED display module.",
+        "website": "https://github.com/ozhantr/DigitLedDisplay/",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "C:\\Users\\edumt\\Documents\\Arduino\\libraries\\DigitLedDisplay",
+        "source_dir": "C:\\Users\\edumt\\Documents\\Arduino\\libraries\\DigitLedDisplay\\src",
+        "real_name": "DigitLedDisplay",
+        "version": "1.1.0",
+        "license": "Unspecified",
+        "location": 1,
+        "layout": 1,
+        "examples": [
+          "C:\\Users\\edumt\\Documents\\Arduino\\libraries\\DigitLedDisplay\\examples\\Digit7SegmentDemo"
+        ],
+        "provides_includes": [
+          "DigitLedDisplay.h"
+        ]
+      }
+    ]
+  },
+  "success": true
+}
+
+2021/06/30 14:07:45 running:  c:\Users\edumt\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe config dump --format json
+2021/06/30 14:07:46 Arduino Data Dir ->  C:\Users\edumt\AppData\Local\Arduino15
+2021/06/30 14:07:46     Starting clangd: c:\Users\edumt\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\edumt\AppData\Local\Temp\arduino-language-server454419731 -query-driver=C:\Users\edumt\AppData\Local\Arduino15\packages\**
+2021/06/30 14:07:46 logging to c:\Users\edumt\Documents\GitHub\Baja_Cronos\Cronos2.3\inols-clangd.log
+2021/06/30 14:07:46 logging to c:\Users\edumt\Documents\GitHub\Baja_Cronos\Cronos2.3\inols-clangd-err.log
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/30 14:07:46 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/30 14:07:46 INIT--- initializing workbench (done)
+2021/06/30 14:07:46 INIT--- [93m unlocked[0m
+2021/06/30 14:07:46 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/30 14:07:46 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/30 14:07:46 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/Cronos2.3.ino@1 as 'cpp')
+2021/06/30 14:07:46     increasing .ino tracked files count: 1
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp@1 as 'cpp')
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif3 [93m locked[0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif3 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/buttonRead.ino@1 as 'cpp')
+2021/06/30 14:07:46     increasing .ino tracked files count: 2
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif3 notification is not propagated to clangd
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif3 [93m unlocked[0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 SYLD--- [93m read-locked[0m
+2021/06/30 14:07:46 SYLD--- requesting documentSymbol for file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp
+2021/06/30 14:07:46 SYLD--- [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif4 [93m locked[0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif4 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/cronos.ino@1 as 'cpp')
+2021/06/30 14:07:46     increasing .ino tracked files count: 3
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif4 notification is not propagated to clangd
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif4 [93m unlocked[0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif5 [93m locked[0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif5 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/desligado.ino@1 as 'cpp')
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/30 14:07:46 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/30 14:07:46     increasing .ino tracked files count: 4
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif5 notification is not propagated to clangd
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif5 [93m unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif6 [93m locked[0m
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif6 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/reinicia.ino@1 as 'cpp')
+2021/06/30 14:07:46     increasing .ino tracked files count: 5
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif6 notification is not propagated to clangd
+2021/06/30 14:07:46 IDE --> textDocument/didOpen notif6 [93m unlocked[0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/30 14:07:46 --> codeAction(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/Cronos2.3.ino:0:0)
+2021/06/30 14:07:46     --> codeAction(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:2:0)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/28 0%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/28 0%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/30 14:07:46 CLG <-- textDocument/publishDiagnostics notif9 (queued)
+2021/06/30 14:07:46 CLG <-- textDocument/publishDiagnostics notif9 [93m read-locked[0m
+2021/06/30 14:07:46 CLG <-- textDocument/publishDiagnostics notif9 (running)
+2021/06/30 14:07:46 CLG <-- textDocument/publishDiagnostics notif9 publishDiagnostics(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp):
+2021/06/30 14:07:46 CLG <-- textDocument/publishDiagnostics notif9 [93m read-unlocked[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/30 14:07:46 SYLD--- [93m read-locked[0m
+2021/06/30 14:07:46 SYLD---    symbol: Function setup 33:0-33:12
+2021/06/30 14:07:46 SYLD---             > void setup()
+2021/06/30 14:07:46 SYLD---    symbol: Function loop 35:0-35:11
+2021/06/30 14:07:46 SYLD---             > void loop()
+2021/06/30 14:07:46 SYLD---    symbol: Function buttonRead 37:0-37:17
+2021/06/30 14:07:46 SYLD---             > void buttonRead()
+2021/06/30 14:07:46 SYLD---    symbol: Function cronos 39:0-39:13
+2021/06/30 14:07:46 SYLD---             > void cronos()
+2021/06/30 14:07:46 SYLD---    symbol: Function desliga 41:0-41:14
+2021/06/30 14:07:46 SYLD---             > void desliga()
+2021/06/30 14:07:46 SYLD---    symbol: Function reinicia 43:0-43:15
+2021/06/30 14:07:46 SYLD---             > void reinicia()
+2021/06/30 14:07:46 SYLD---    symbol: Function setup 45:0-65:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void setup() 
+2021/06/30 14:07:46 SYLD---    symbol: Function loop 67:0-74:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void loop() 
+2021/06/30 14:07:46 SYLD---    symbol: Function buttonRead 77:0-96:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void buttonRead() 
+2021/06/30 14:07:46 SYLD---    symbol: Function cronos 106:0-133:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void cronos() 
+2021/06/30 14:07:46 SYLD---    symbol: Function desliga 146:0-154:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void desliga() 
+2021/06/30 14:07:46 SYLD---    symbol: Function reinicia 162:0-181:1
+2021/06/30 14:07:46 SYLD---      TRIMMED> void reinicia() 
+2021/06/30 14:07:46 SYLD--- [93m read-unlocked[0m
+2021/06/30 14:07:46 SYLD--- (done)
+2021/06/30 14:07:46     <-- codeAction(0 elements)
+2021/06/30 14:07:46 <-- codeAction(0 elements)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/30 14:07:46 --> codeAction(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/buttonRead.ino:0:0)
+2021/06/30 14:07:46     --> codeAction(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:77:0)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/30 14:07:46     <-- codeAction(0 elements)
+2021/06/30 14:07:46 <-- codeAction(0 elements)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 3 [93m read-locked[0m
+2021/06/30 14:07:46 --> codeAction(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/cronos.ino:0:0)
+2021/06/30 14:07:46     --> codeAction(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:106:0)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 3 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 4 (4): [0m
+2021/06/30 14:07:46     <-- codeAction(0 elements)
+2021/06/30 14:07:46 <-- codeAction(0 elements)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 3 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 4 [93m read-locked[0m
+2021/06/30 14:07:46 --> codeAction(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/desligado.ino:0:0)
+2021/06/30 14:07:46     --> codeAction(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:146:0)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 4 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 5 (5): [0m
+2021/06/30 14:07:46     <-- codeAction(0 elements)
+2021/06/30 14:07:46 <-- codeAction(0 elements)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 4 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 5 [93m read-locked[0m
+2021/06/30 14:07:46 --> codeAction(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/reinicia.ino:0:0)
+2021/06/30 14:07:46     --> codeAction(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:162:0)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 5 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 6: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 6 (6): [0m
+2021/06/30 14:07:46     <-- codeAction(0 elements)
+2021/06/30 14:07:46 <-- codeAction(0 elements)
+2021/06/30 14:07:46 IDE --> textDocument/codeAction 5 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: REQUEST textDocument/hover 6: [0m
+2021/06/30 14:07:46 IDE --> textDocument/hover 6 [93m read-locked[0m
+2021/06/30 14:07:46 --> hover(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/Cronos2.3.ino:10:14)
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/30 14:07:46     --> hover(file:///C:/Users/edumt/AppData/Local/Temp/arduino-language-server454419731/sketch/Cronos2.3.ino.cpp:12:14)
+2021/06/30 14:07:46 IDE --> textDocument/hover 6 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: REQUEST textDocument/hover 7: [0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: ANSWER textDocument/hover 7 (7): [0m
+2021/06/30 14:07:46 <-- hover("### variable `Tempo`  \n\n---\nType: `unsigned long`  \nVariavel de marcacao de tempo  \n\n---\n```cpp\nunsigned long Tempo\n```")
+2021/06/30 14:07:46 IDE --> textDocument/hover 6 [93m read-unlocked[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: ANSWER UNBOUND (6): [0m
+2021/06/30 14:07:46 [92mIDE --> LS     CL: NOTIFICATION $/cancelRequest: [0m
+2021/06/30 14:07:46 IDE --> $/cancelRequest notif7 [93m read-locked[0m
+2021/06/30 14:07:46 IDE --> $/cancelRequest notif7 sent to Clang
+2021/06/30 14:07:46 [91mIDE     LS --> CL: NOTIFICATION $/cancelRequest: [0m
+2021/06/30 14:07:46 IDE --> $/cancelRequest notif7 [93m read-unlocked[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/30 14:07:46 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/30 14:07:46 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/30 14:07:47 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/30 14:07:47 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/30 14:07:47 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/30 14:07:47 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/30 14:07:48 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/30 14:07:48 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/30 14:07:49 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/30 14:07:49 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/30 14:07:59 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/30 14:07:59 IDE --> textDocument/didOpen notif8 [93m locked[0m
+2021/06/30 14:07:59 IDE --> textDocument/didOpen notif8 (file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/freio.ino@1 as 'cpp')
+2021/06/30 14:07:59     increasing .ino tracked files count: 6
+2021/06/30 14:07:59 IDE --> textDocument/didOpen notif8 notification is not propagated to clangd
+2021/06/30 14:07:59 IDE --> textDocument/didOpen notif8 [93m unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif9 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/desligado.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif9 [93m read-unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif10 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/Cronos2.3.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif10 [93m read-unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif11 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/reinicia.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif11 [93m read-unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif12 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/freio.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif12 [93m read-unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif13 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/buttonRead.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif13 [93m read-unlocked[0m
+2021/06/30 14:08:05 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif14 [93m read-locked[0m
+2021/06/30 14:08:05 --> textDocument/didSave(file:///c%3A/Users/edumt/Documents/GitHub/Baja_Cronos/Cronos2.3/cronos.ino)
+2021/06/30 14:08:05     --| didSave not forwarded to clangd
+2021/06/30 14:08:05 IDE --> textDocument/didSave notif14 [93m read-unlocked[0m
