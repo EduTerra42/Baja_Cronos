@@ -15,7 +15,7 @@ static int min, seg, hora = 0;  //controle de impressao
 
 
 //**    Botao e suas funcoes    **//
-#define botao 3  //Porta do botao
+#define botao 5  //Porta do botao
 bool flagBot = 0;  //testa se o botao ja foi pressionado
 bool flagBotTemp = 0;  //determina se o tempo ja foi marcado
 unsigned long TempBot = 0;  //determina ha quanto tempo foi apertado
@@ -24,7 +24,7 @@ bool botDesligado = 0;  //variavel de controle para saber se o modo esta desliga
 
 //**    Rgb entradas    **//
 #define rgbR 2
-#define rgbG 5
+#define rgbG 3
 #define rgbB 4
 
 
