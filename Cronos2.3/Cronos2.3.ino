@@ -14,13 +14,21 @@ unsigned long SegA = 0;  //Variavel de segundos
 static int min, seg, hora = 0;  //controle de impressao
 
 
-//**    Botao e suas funcoes    **//
-#define botao 5  //Porta do botao
+//**    Botoes e suas funcoes    **//
+#define botao 5  //Porta do botao do cronometro
 bool flagBot = 0;  //testa se o botao ja foi pressionado
 bool flagBotTemp = 0;  //determina se o tempo ja foi marcado
 unsigned long TempBot = 0;  //determina ha quanto tempo foi apertado
 bool botDesligado = 0;  //variavel de controle para saber se o modo esta desligado
 
+#define botao2 6  //porta do botao de freios
+float frontal, traseiro, relacao;  //variaveis de impressao e controle dos freios
+float pressaoMaxima;  //variavel de controle dos freios
+bool flagBot2 = 0;  //testa se o botao ja foi pressionado
+bool flagBot2Temp = 0;  //determina se o tempo ja foi marcado
+unsigned long TempBot2 = 0;  //determina ha quanto tempo foi apertado
+int total = 0;  //contagem de cliques
+int imprime = 0;  // determina qual valor que vai ser impresso
 
 //**    Rgb entradas    **//
 #define rgbR 2

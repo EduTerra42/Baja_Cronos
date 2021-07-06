@@ -1,22 +1,22 @@
 void brakes() {
 
-  float frontal = map(analogRead(A0),0 ,1023, 0, 5000);  //fazer o tratamento da leitura para fazer a impressão
-  float traseiro = map(analogRead(A1),0 ,1023 ,0 ,5000 );  //precisa ser float
-  float relecao;
-  if (Botao && botao2) {
-    if (PressaoMaxima < frontal + traseiro {  //so permite a mudança caso o novo valore seja maior que o antigo
-      pressoMaxima = frontal + traseiro;
+  frontal = map(analogRead(A0),0 ,1023, 0, 5000);  //fazer o tratamento da leitura para fazer a impressão
+  traseiro = map(analogRead(A1),0 ,1023 ,0 ,5000 );  //precisa ser float
+
+  if (botao && botao2) {
+    if (pressaoMaxima < frontal + traseiro) {  //so permite a mudança caso o novo valore seja maior que o antigo
+      pressaoMaxima = frontal + traseiro;
     }
   }
   if (!digitalRead(botao2)) {
-    flag = 1;  //pronto para ser solto
-    if (!flagTemp) {
-      flagTemp = 1;  //impede varias marcacoes de tempo
-      tempo = millis();
+    flagBot2 = 1;  //pronto para ser solto
+    if (!flagBot2Temp) {
+      flagBot2Temp = 1;  //impede varias marcacoes de tempo
+      TempBot2 = millis();
     }
   }
-  if (digitalRead(botao2) && flag) {
-    flagTemp = flag = 0;
+  if (digitalRead(botao2) && flagBot2) {
+    flagBot2Temp = flagBot2 = 0;
     total ++;
   }
   /*
@@ -36,34 +36,34 @@ void brakes() {
   }
   */
   
-  if(tempo - millis()>1000){
+  if(TempBot2 - millis()>1000){
     switch (total){
       case 1:
         imprime = 1;
-        cronos.write(/*R*/);
-        cronos.write(/*E*/);
-        cronos.write(/*L*/);
+        crono.write(3, 0x77);//(B01110111)
+        crono.write(2, 0x79);//(B01111001)
+        crono.write(1, 0x38);//(B00111000)
         delay(500);
         break;
       case 2:
         imprime = 2;
-        cronos.write(3, /*F*/);
-        cronos.write(2, /*R*/);
-        cronos.write(1, /*O*/);
+        crono.write(3, 0x71);//(B01110001)
+        crono.write(2, 0x38);//(B01110111)
+        crono.write(1, 0x3F);//(B00111111)
         delay(500);
         break;
       case 3:
         imprime = 3;
-        cronos.write(3, /*T*/);
-        cronos.write(2, /*R*/);
-        cronos.write(1, /*A*/);
+        crono.write(3, 0x31);//(B00110001)
+        crono.write(2, 0x38);//(B01110111)
+        crono.write(1, 0x38);//(B01110111)
         delay(500);
         break;      
       default:
         imprime = 1;
-        cronos.write(3, /*R*/);
-        cronos.write(2, /*E*/);
-        cronos.write(1, /*L*/);
+        crono.write(3, 0x77);//(B01110111)
+        crono.write(2, 0x79);//(B01111001)
+        crono.write(1, 0x38);//(B00111000)
         delay(500);
         break;
     }
@@ -75,16 +75,16 @@ void brakes() {
       if(frontal != 0 || traseiro != 0){
         relacao = (frontal / (frontal + traseiro)) * 100;
       }
-      freios.printDigit(rel);
+      freio.printDigit(relacao);
       break;
     case 2:
-      freios.printDigit(frontal/pressaoMaxima * 100);
+      freio.printDigit(frontal/pressaoMaxima * 100);
       break;
     case 3:
-      freios.printDigit(traseiro/pressaoMaxima * 100);
+      freio.printDigit(traseiro/pressaoMaxima * 100);
       break;
     default:
-      freios.printDigit((frontal / (frontal + traseiro)) * 100)
+      freio.printDigit((frontal / (frontal + traseiro)) * 100);
       break;
   }
 
