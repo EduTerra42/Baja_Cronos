@@ -1,5 +1,10 @@
 void brakes() {
-
+  frontal = map(analogRead(portFront), 0, 1023, 0, 3000);
+  traseiro = map(analogRead(portTras), 0, 1023, 0, 3000);
+  rel = (frontal/(frontal+traseitro))*100;
+  crono.write(rel)
+  
+/*
   frontal = map(analogRead(A0),0 ,1023, 0, 5000);  //fazer o tratamento da leitura para fazer a impressão
   traseiro = map(analogRead(A1),0 ,1023 ,0 ,5000 );  //precisa ser float
 
@@ -35,7 +40,7 @@ void brakes() {
     total = 0;
   }
   */
-  
+  /*
   if(TempBot2 - millis()>1000){
     switch (total){
       case 1:
@@ -87,5 +92,5 @@ void brakes() {
       freio.printDigit((frontal / (frontal + traseiro)) * 100);
       break;
   }
-
+*/
 }
